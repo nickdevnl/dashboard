@@ -125,7 +125,9 @@
                                 @enderror
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                <input type="submit" class="btn btn-primary mt-3" value="Submit" onclick="this.disabled=true;this.value='Sending, please wait...';this.form.submit();"
+                            </div>
+                               
                             </div>
                         </form>
 
